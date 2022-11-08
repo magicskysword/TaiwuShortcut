@@ -5,6 +5,8 @@ return {
 
 所有快捷键均可在系统设置界面设置
 
+Github地址及Mod框架使用方法：https://github.com/magicskysword/TaiwuShortcut
+
 * 主界面使用Y、U、I、O、P等快捷键打开人物各项界面
 * 人物界面使用Y、U、I、O、P等快捷键切换人物各项界面
 * 人物界面使用1、2、3、4、5、6快捷键切换人物子项界面

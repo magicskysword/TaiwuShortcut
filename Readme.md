@@ -14,6 +14,11 @@
 
 ### 快速开始
 
+从创意工坊订阅mod后，在
+`steam\steamapps\workshop\content\838350\2885985836`
+文件夹内找到`Plugins\TaiwuShortcut.dll`并添加到C#引用之中。
+
+
 若要方便的使用该Mod框架，按如下方式快速创建一个快捷键组件类：
 ```C#
 namespace TestShortcutMod
@@ -92,6 +97,15 @@ namespace TestShortcutMod
 ```
 
 这样便完成了基本的快捷键功能设置。
+
+### 添加Mod依赖
+在Config.lua文件里，添加以下内容
+```lua
+Dependencies = {
+    2885985836,
+}
+```
+即可在上传Mod以及玩家启用Mod时，提示Mod依赖相关内容
 
 ### ShortcutManager类
 许多快捷键的方法实际上最终于ShortcutManager中调用。若是有需求，可以直接查看该类之中的方法并进行调用。
